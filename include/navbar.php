@@ -1,3 +1,6 @@
+<?php
+$currentPage = basename($_SERVER['PHP_SELF']);
+?>
 <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
   <div class="container">
 
@@ -18,23 +21,23 @@
       <ul class="navbar-nav ms-auto align-items-center">
 
         <li class="nav-item">
-          <a class="nav-link" href="dashboard.php">Dashboard</a>
+          <a class="nav-link <?= $currentPage == 'dashboard.php' ? 'text-primary fw-bold' : '' ?>" href="dashboard.php">Dashboard</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="profile.php">Profile</a>
+          <a class="nav-link <?= $currentPage == 'profile.php' ? 'text-primary fw-bold' : '' ?>" href="profile.php">Profile</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="resume.php">Resume</a>
+          <a class="nav-link <?= $currentPage == 'resume.php' ? 'text-primary fw-bold' : '' ?>" href="resume.php">Resume</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="jobs.php">Jobs</a>
+          <a class="nav-link <?= $currentPage == 'jobs.php' ? 'text-primary fw-bold' : '' ?>" href="jobs.php">Jobs</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="applications.php">Applications</a>
+          <a class="nav-link <?= $currentPage == 'applications.php' ? 'text-primary fw-bold' : '' ?>" href="applications.php">Applications</a>
         </li>
 
         <li class="nav-item ms-lg-3">
