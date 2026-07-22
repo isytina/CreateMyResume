@@ -4,7 +4,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
   <div class="container">
 
-    <a class="navbar-brand fw-bold text-primary" href="index.php">
+    <a class="navbar-brand fw-bold text-primary" href="dashboard.php">
       CreateMyResume
     </a>
 
