@@ -65,6 +65,7 @@ if (isset($_GET["apply"])) {
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Jobs - CreateMyResume</title>
 
@@ -103,7 +104,7 @@ if (isset($_GET["apply"])) {
   <div class="row g-4">
 
     <!-- Sidebar -->
-    <div class="col-lg-3">
+    <div class="col-lg-3 d-none d-lg-block">
 
       <?php include 'include/sidebar.php'; ?>
 
