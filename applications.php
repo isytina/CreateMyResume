@@ -12,6 +12,7 @@ $applications = $_SESSION["applications"] ?? [];
 <head>
 
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Applications - CreateMyResume</title>
 
@@ -44,7 +45,7 @@ $applications = $_SESSION["applications"] ?? [];
   <div class="row g-4">
 
     <!-- Sidebar -->
-    <div class="col-lg-3">
+    <div class="col-lg-3 d-none d-lg-block">
 
       <?php include 'include/sidebar.php'; ?>
 
